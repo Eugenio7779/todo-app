@@ -1,6 +1,9 @@
 import React from 'react'
+import { AppForm } from './AppForm'
 export const Cover = () => {
     return(
-        <div>Cover</div>
+        <div className='Cover'>
+            <AppForm/>
+        </div>
     )
 }
