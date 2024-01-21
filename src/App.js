@@ -1,25 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import { Cover } from './components/Cover';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Приключения в стиле JS
-          <br />
-          или как сделать ToDo list
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Cover/>
     </div>
   );
 }
